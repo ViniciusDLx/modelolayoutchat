@@ -1,0 +1,77 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chat-content,
+.title-box,
+.content-box,
+.atendente-msg,
+.cliente-msg {
+  border: 1px solid black;
+}
+
+.chat-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.title-box {
+  padding: 8px;
+}
+
+.content-box {
+  margin: 8px 8px 0px 8px;
+  padding: 10px;
+  width: 350px;
+  height: 450px;
+}
+
+.atendente-msg,
+.cliente-msg {
+  padding: 6px;
+  border-radius: 2px;
+}
+
+.atendente-title {
+  text-align: start;
+  margin-bottom: 2px;
+}
+.atendente-msg {
+  max-width: 65%;
+  margin-top: 0;
+  margin-right: auto;
+}
+
+.cliente-title {
+  text-align: end;
+  margin-bottom: 2px;
+}
+
+.cliente-msg {
+  max-width: 65%;
+  margin-left: auto;
+  margin-top: 0;
+}
+
+.enviar-msg {
+  margin: 0px 8px 0px 8px;
+  padding: 10px 0px 10px 0px;
+  width: 372px;
+}
+
+input {
+  width: 70%;
+  padding: 8px 6px;
+}
+
+button {
+  width: 24%;
+  padding: 8px;
+}
