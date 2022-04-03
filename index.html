@@ -13,13 +13,13 @@
         <div class="title-box">
           Atendimento on-line
         </div>
-        <div class="content-box">
-          <div class="atendente">
+        <div class="content-box" id="contentBox" style="overflow-y:scroll; scroll-behavior: auto;">
+          <div class="atendente" id="customerDiv">
             <p class="atendente-title">
               Atendente diz:
             </p>
             <p class="atendente-msg">
-              Blabla blabla blabla
+              Blabla blabla blabla 
             </p>
             <p class="atendente-title">
               Atendente diz:
@@ -28,12 +28,12 @@
               Blabla blabla blabla
             </p>
           </div>
-          <div class="cliente">
+          <div class="cliente" id="clientDiv">
             <p class="cliente-title">
               Você diz
             </p>
-            <p class="cliente-msg">
-              Blabla blabla blabla
+            <p class="cliente-msg" >
+              Blabla blabla blabla 
             </p>
             <p class="cliente-title">
               Você diz:
@@ -43,11 +43,13 @@
             </p>
           </div>
         </div>
-        <div class="enviar-msg">
-          <input type="text" placeholder="Digite sua mensagem..." />
+        <form autocomplete="off" class="enviar-msg" id="formMsg" style="display:flex;">
+          <input type="text" id="inputMsgCustomer" placeholder="Atendente..." />
+          <input type="text" id="inputMsgClient" placeholder="Cliente..." />
           <button type="submit">Enviar</button>
-        </div>
+        </form>
       </div>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>
