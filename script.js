@@ -23,7 +23,7 @@ function criaMensagemCliente(inputMsgClient) {
     `
     <div class="cliente" id="clientDiv">
       <p class="cliente-title">
-        Você diz
+        Você diz:
       </p>
       <p class="cliente-msg">
         ${inputMsgClient}
